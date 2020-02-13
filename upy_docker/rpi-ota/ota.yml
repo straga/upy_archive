@@ -1,0 +1,18 @@
+version: '3'
+services:
+
+  ota_esp:
+    build:
+      context: ./v2
+      dockerfile: Dockerfile
+    restart: always
+    labels:
+      odoo11c: OTA ESP"
+    volumes:
+      - 'ota_data:/opt/server'
+    container_name: ota_esp
+    network_mode: "bridge"
+
+volumes:
+  ota_data:
+    driver: local

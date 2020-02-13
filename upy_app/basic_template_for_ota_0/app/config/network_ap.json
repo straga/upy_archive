@@ -1,0 +1,9 @@
+{
+  "ap":{
+    "essid":"uPy-Dev-8888888",
+    "channel":11,
+    "hidden":false,
+    "password":"12345678",
+    "authmode":3
+  }
+}

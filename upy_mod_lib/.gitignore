@@ -1,0 +1,16 @@
+ftpse/example/lib/*
+ftpse/example/config.py
+
+telnetse/example/lib/*
+telnetse/example/config.py
+
+button_control/example/lib/*
+button_control/example/config.py
+
+relay_control/example/lib/*
+relay_control/example/config.py
+
+wifi/example/lib/*
+wifi/example/network*.json
+
+config/example/lib/*
